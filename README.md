@@ -1,4 +1,4 @@
 # syokinet--1.0.0
 
 ## Live
-syokinet-live.netlify.app
+<a href="syokinet-live.netlify.app"> Syokinet Live </a>
