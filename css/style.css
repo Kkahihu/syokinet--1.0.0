@@ -607,7 +607,7 @@
     height: 25px;
     right: -13px;
     background-color: #939597;
-    border: 5px solid #F5DF4D;
+    border: 2px solid var(--primary);
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -644,7 +644,7 @@
     top: 18px;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid var(--primary);
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
 }
