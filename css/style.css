@@ -3,6 +3,7 @@
     --primary: #e67f22;
     --light: #F6F7F8;
     --dark: #1A2A36;
+    --warning: #e67f22;
 }
 
 .fw-medium {
@@ -89,7 +90,7 @@
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 30px;
+    margin-right: 50px;
     padding: 25px 0;
     color: var(--dark);
     font-size: 15px;
@@ -110,6 +111,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    color: var(--primary)
 }
 
 @media (max-width: 991.98px) {
@@ -119,7 +121,7 @@
     }
 
     .navbar .navbar-nav {
-        border-top: 1px solid #EEEEEE;
+        border-top: 1px solid var(--primary);
     }
 }
 
@@ -139,6 +141,7 @@
         visibility: visible;
         transition: .5s;
         opacity: 1;
+        color: var(--primary)
     }
 }
 
