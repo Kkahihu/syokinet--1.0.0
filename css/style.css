@@ -252,6 +252,13 @@
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
+.service-item {
+
+}
+.service-item img {
+    width: 600%;
+    height: auto;;
+}
 
 .service-icon {
     position: relative;
