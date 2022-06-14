@@ -839,3 +839,24 @@
         margin: 0 0 20px
     }
 }
+
+.video a{
+    width: 100%
+;
+    display: block
+;
+    text-decoration: none
+;
+}
+.video a .video-title {
+    color: #fff;
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 700;
+    transition: all .3s ease;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    padding: 20px 10px 17px 30px;
+    outline: none !important;
+}
