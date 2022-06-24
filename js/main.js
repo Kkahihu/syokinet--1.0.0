@@ -81,28 +81,28 @@
         }
     });
 
-    //Youtube Video carousel
-    // $('.video-carousel').owlCarousel({
-    //     autoplay: true,
-    //     loop:true,
-    //     margin:10,
-    //     responsiveClass:true,
-    //     dots: false,
-    //     autoHeight: true,
-    //     responsive:{
-    //         0:{
-    //             responsiveClass: true,
-    //             dots: false,
-    //             nav: false,
-    //             autoHeight: true,
-    //             items: 1
-    //         },
-    //         768 : {
-    //             items: 1
-    //         }
-    //
-    //     }
-    // })
+    // Testimonials carousel
+    $(".twitter-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        center: true,
+        margin: 30,
+        dots: false,
+        loop: true,
+        nav : true,
+        navText : [
+            '<i class="bi bi-arrow-left"></i>',
+            '<i class="bi bi-arrow-right"></i>'
+        ],
+        responsive: {
+            480 :{
+                items:1
+            },
+            768:{
+                items:2
+            }
+        }
+    });
 
     $(function() {
         var owl = $('.video-carousel'),
