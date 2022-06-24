@@ -214,6 +214,16 @@
     transition: .5s;
 }
 
+.video-carousel-carousel.off {
+    display: block;
+}
+
+@media (max-width: 460px) {
+    .video {
+        display: none;
+    }
+}
+
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/SYOKINET-3.jpg) center center no-repeat;
     background-size: cover;
